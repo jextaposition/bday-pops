@@ -1,0 +1,30 @@
+h1 {
+    animation: color-change 2s infinite;
+    text-align: center;
+
+}
+.active {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+@keyframes color-change {
+    
+    0% {color: rgba(159, 22, 22, 0.852);
+        font-size: 90px;
+        margin-top: 250px;}
+        25% {color: rgba(61, 121, 44, 0.852);
+            font-size: 90px;
+            margin-top: 250px;}
+    50% {color: rgb(44, 67, 137);
+        font-size: 90px;
+        margin-top: 250px;}
+        75% {color: rgb(101, 61, 92);
+            font-size: 90px;
+            margin-top: 250px;}        
+    100% {color: rgba(188, 188, 17, 0.783);
+        font-size: 90px;
+        margin-top: 250px;}
+
+}
